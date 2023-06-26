@@ -1,0 +1,99 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Anek+Bangla:wght@300&family=Cairo+Play:wght@300&family=Jost:wght@300&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Jost', sans-serif;
+  }
+  .sidebar {
+    display: flex;
+    flex-direction: column;
+    background-color: #ecf3fe;
+    height: 100vh;
+    width: 300px;
+    margin-bottom: 10px;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    height: 67px;
+    padding: 0 20px;
+    background-color: #fff;
+    cursor: pointer;
+    margin:15px;
+  }
+  .logo img {
+    width: 43px;
+    height: 36px;
+    margin-right: 8px;
+    margin-left: -14px;
+  }
+  .logo p {
+    margin: 0 0 0 8px;
+    font-weight: bolder;
+    font-size: 17px;
+  }
+  .text{
+    font-weight: bold;
+    display: block;
+    color:grey;
+    font-size:13px;
+  }
+
+  .user {
+    display: flex;
+    flex-direction: column;
+  }
+  .user hr {
+    border: 1px solid #e0ecfa;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  li {
+    display: flex;
+    align-items: center;
+    line-height: 60px;
+    color: grey;
+    margin-left: 20px;
+  }
+  li:hover {
+    color: black;
+    background-color: white;
+    margin:0 20px;
+    font-weight: bolder
+  }
+  li i{
+    margin-left:10px;
+  }
+  li p {
+    margin-left: 15px;
+    display: inline;
+  }
+  a{
+    text-decoration: none;
+  }
+  .mysidebar{
+    width:70px;
+  }
+  .mysidebar p{
+    display: none;
+  }
+  .mysidebar li{
+    padding: 8px;
+    display: inline;
+  }
+  .mysidebar li:hover{
+   /* display: inline;
+   padding: 8px; */
+  }
+  .mysidebar li i{
+    line-height: 60px;
+    margin:0;
+  }
+ .mysidebar .logo{
+    background-color: #ecf3fe;
+ }
